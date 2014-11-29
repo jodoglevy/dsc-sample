@@ -5,7 +5,7 @@ Configuration WebsiteConfig
         # Install the Web Server role
         WindowsFeature IIS
         {
-            Ensure = "Present"
+            Ensure = "Absent"
             Name = "Web-Server"
         }
     }
