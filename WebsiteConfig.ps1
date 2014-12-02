@@ -1,6 +1,6 @@
 Configuration WebsiteConfig
 {
-    Node ("localhost")
+    Node ("localhoset")
     {
         # Install the Web Server role
         WindowsFeature IIS
